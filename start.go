@@ -15,4 +15,10 @@ func main() {
 	x = 20
 	fmt.Printf("x: %v, %T,\n", x, x)
 
+	t := 10
+	qualquercoisa(t)
+}
+
+func qualquercoisa(x int) {
+	fmt.Println(x)
 }
